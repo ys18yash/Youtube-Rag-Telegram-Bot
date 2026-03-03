@@ -38,6 +38,7 @@ The bot uses semantic search (FAISS) and a locally served LLM (Llama 3.1 via Oll
 
 1. Overlapping transcript chunks to improve recall quality
 
+
 🏗 Architecture
 User Message
 ↓
@@ -196,7 +197,7 @@ It reflects applied understanding of modern LLM system design beyond prompt engi
 
 Here is the bot in action:
 
-![Demo](demo/demo.mp4)
+▶ [Watch Demo Video](dem/Telegram_Bot(VidRag).mp4)
 
 ### What the demo shows:
 1. Sending YouTube link
@@ -204,3 +205,8 @@ Here is the bot in action:
 3. Asking question
 4. Timestamp-based jump
 5. Rejecting unrelated question
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-orange)
+![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-green)
+![Telegram](https://img.shields.io/badge/Telegram-Bot_API-blue)
